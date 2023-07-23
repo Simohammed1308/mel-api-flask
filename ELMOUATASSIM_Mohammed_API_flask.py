@@ -44,7 +44,7 @@ print('df shape = ', df.shape)
 
 #Chargement du modèle
 load_clf = joblib.load("model.joblib")
-explainer = joblib.load("shap_explainer.joblib")
+#explainer = joblib.load("shap_explainer.joblib")
 
 #Premiers pas sur l'API
 @app.route('/')
