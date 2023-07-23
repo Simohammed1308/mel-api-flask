@@ -45,7 +45,7 @@ jobs:
 
       if: github.ref == 'refs/heads/master' && job.status == 'success'
       run: |
-          git remote set-url https://heroku:$HEROKU_AUTH_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git 
-          git pull --rebase
-          #git fetch --all --unshallow
+          git fetch --all --unshallow
+          git remote add heroku https://heroku:$HEROKU_AUTH_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git 
+          #git pull --rebase
           git push heroku HEAD:master -f
