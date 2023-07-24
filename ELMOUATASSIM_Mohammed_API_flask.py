@@ -83,6 +83,7 @@ def credit(id_client):
     #X_norm = scaler.transform(X_preprocess)
     
     #proba = load_clf.predict_proba(X)
+    proba = int(12)
     #prediction = load_clf.predict(X)
     
     pred_proba = {
