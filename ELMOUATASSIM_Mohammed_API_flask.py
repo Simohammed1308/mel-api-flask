@@ -82,14 +82,12 @@ def credit(id_client):
     #scaler.fit(X_preprocess)
     #X_norm = scaler.transform(X_preprocess)
     
-    #proba = load_clf.predict_proba(X)
-    #prediction = load_clf.predict(X)
-    
+    proba = load_clf.predict_proba(X)
+    prediction = load_clf.predict(X)
+
     pred_proba = {
-        'prediction': int(12),
-        'proba': float(0.12)
-        
-    }
+        'prediction': int(prediction),
+        'proba': float(proba[0][0])
 
     print('Nouvelle Prédiction : \n', pred_proba)
 
