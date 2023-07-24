@@ -1,5 +1,5 @@
 
-# Le lien  de l'API déployée sur heroku : https://mb-oc-p7-api.herokuapp.com/
+# Le lien de l'API déployée sur heroku : https://mb-oc-p7-api.herokuapp.com/
 
 import flask
 from flask import Flask
