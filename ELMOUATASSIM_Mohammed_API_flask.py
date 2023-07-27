@@ -1,5 +1,5 @@
 
-# Le lien de l'API déployée sur heroku: https://apps/api-flask-mel/
+# Le lien de l'API déployée sur heroku: https://api-flask-mel-593f2a859e1d.herokuapp.com/
 
 import flask
 from flask import Flask
