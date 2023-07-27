@@ -17,7 +17,7 @@ app.config["DEBUG"] = True
 
 #PATH = './data/final/'
 
-df = pd.read_pickle("df.gz")
+df = pd.read_pickle("df_2.gz")
 print('df shape = ', df.shape)
 
 #PATH = './data/preprocessed_data/'
