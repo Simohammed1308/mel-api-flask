@@ -57,7 +57,7 @@ def score_min():
 
 @app.route('/credit/<id_client>', methods=["GET"])
 def credit(id_client):
-
+    print('Mohammed : ',id_client)
     # Récupération des données du client en question
     ID = int(float(id_client))
     X = df[df['SK_ID_CURR'] == ID]
