@@ -81,7 +81,7 @@ def credit(id_client):
     #scaler = StandardScaler()
     #scaler.fit(X_preprocess)
     #X_norm = scaler.transform(X_preprocess)
-    
+    print("je suis avant proba")
     proba = load_clf.predict_proba(X)
     print('Probabilité : ',proba)
     prediction = load_clf.predict(X)
