@@ -59,7 +59,7 @@ def score_min():
 def credit(id_client):
 
     # Récupération des données du client en question
-    ID = int(id_client)
+    ID = int(float(id_client))
     X = df[df['SK_ID_CURR'] == ID]
     
     print('identifiant du client :', ID)
