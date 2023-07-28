@@ -91,7 +91,7 @@ def credit(id_client):
 
     pred_proba = {
         'prediction': int(prediction),
-        'proba': float(proba[0][0])
+        'proba': float(proba)
     }
 
     print('Nouvelle Prédiction : \n', pred_proba)
