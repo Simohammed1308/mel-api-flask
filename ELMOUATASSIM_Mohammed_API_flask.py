@@ -15,6 +15,8 @@ import numpy as np
 app = Flask(__name__)
 app.config["DEBUG"] = True
 
+print("API FLASK")
+
 #PATH = './data/final/'
 
 df = pd.read_pickle("df_2.gz")
