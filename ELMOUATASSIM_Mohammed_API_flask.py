@@ -87,6 +87,7 @@ def credit(id_client):
     proba = load_clf.predict_proba(X)[:,1]
     print('Probabilité : ',proba)
     prediction = load_clf.predict(X)
+    print('prediction : ',prediction)
 
     pred_proba = {
         'prediction': int(prediction),
